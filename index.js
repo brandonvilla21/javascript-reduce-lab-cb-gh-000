@@ -30,8 +30,6 @@ function wordCounter( obj, line ) {
   obj[wordNumber]++;
 
   return obj
-  
+
 }
 const wordCountMap = monologueLines.reduce(wordCounter, {})
-
-
