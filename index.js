@@ -1,4 +1,8 @@
+// Battery batches
 const batteryBatches = [4, 5, 3, 4, 4, 6, 5];
+const totalBatteries = batteryBatches.reduce((sum, batteryBatch) => {
+  return sum + batteryBatch
+}, 0)
 
 const monologueLines = [
   'Who are you talking to right now?',
